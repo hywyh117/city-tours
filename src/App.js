@@ -1,9 +1,14 @@
 import React, { Component } from "react";
 import "./App.scss";
+import Navbar from "./Components/Nevbar/Navbar";
 
 class App extends Component {
   render() {
-    return <h1>Our city tour</h1>;
+    return (
+      <React.Fragment>
+        <Navbar />
+      </React.Fragment>
+    );
   }
 }
 
