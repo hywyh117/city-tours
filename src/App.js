@@ -10,7 +10,6 @@ class App extends Component {
       <React.Fragment>
         <Navbar />
         <TourList />
-        <Tour />
       </React.Fragment>
     );
   }
