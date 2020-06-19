@@ -3,7 +3,7 @@ import "./tour.scss";
 
 export default class Tour extends Component {
   render() {
-    console.log(this.props);
+    // console.log(this.props);
     const { id, city, img, name, info } = this.props.tour;
     const { removeTour } = this.props;
     // console.log(this.props.tour);
@@ -19,7 +19,10 @@ export default class Tour extends Component {
           <h3>{city}</h3>
           <h4>{name}</h4>
           <h5>
-            info <i className="fas fa-caret-square-down"></i>
+            info{" "}
+            <span>
+              <i className="fas fa-caret-square-down"></i>
+            </span>
           </h5>
           <p>{info}</p>
         </div>
